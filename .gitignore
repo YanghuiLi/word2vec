@@ -1,0 +1,7 @@
+#only for Word2Vec
+*.pyc
+*.gem
+
+model/
+raw_data/
+w2v_data/
