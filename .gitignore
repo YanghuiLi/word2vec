@@ -1,6 +1,9 @@
 #only for Word2Vec
 *.pyc
 *.gem
+*.txt
+*.model
+*.npy
 
 model/
 raw_data/
