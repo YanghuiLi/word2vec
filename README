@@ -1,1 +1,11 @@
 it is just for practicing about word2vec.
+
+2017/10/4
+今天碰到两个难题
+1、ASCII 13 是一个回车字符，一个不等于 ‘\n’ 的同样具有换行功能的字符
+	检测方法：if ord(ch)==13:
+		参照（Python ASCII码与字符相互转换）：http://www.runoob.com/python3/python3-ascii-character.html
+	
+2、中文的非Unicode编码在某些情况下不被 Word2Vec词向量模型 识别
+	解决方案之一：word=unicode(word,"你的字符串原来的编码方式")
+		参照（Python2.X如何将Unicode中文字符串转换成string字符串）：http://www.cnblogs.com/qiaoxin/p/7048782.html
